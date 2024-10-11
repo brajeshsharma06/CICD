@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-28T23:22:58 IST" name="Default suite" finished-at="2024-03-28T23:26:06 IST" duration-ms="188340">
+    <groups>
+    </groups>
+    <test started-at="2024-03-28T23:22:58 IST" name="Default test" finished-at="2024-03-28T23:26:06 IST" duration-ms="188340">
+      <class name="Bizportals.TestCases.WebPartsTestCases.TestBizportalsHeadliner">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Bizportals.TestCases.WebPartsTestCases.TestBizportalsHeadliner@791f145a]" started-at="2024-03-28T23:22:58 IST" name="launchApplication" finished-at="2024-03-28T23:23:03 IST" duration-ms="4499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="createNewEntry()[pri:0, instance:Bizportals.TestCases.WebPartsTestCases.TestBizportalsHeadliner@791f145a]" started-at="2024-03-28T23:23:03 IST" name="createNewEntry" finished-at="2024-03-28T23:23:56 IST" duration-ms="53755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewEntry -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Bizportals.TestCases.WebPartsTestCases.TestBizportalsHeadliner@791f145a]" started-at="2024-03-28T23:23:56 IST" name="launchApplication" finished-at="2024-03-28T23:24:01 IST" duration-ms="4953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="editEntry()[pri:0, instance:Bizportals.TestCases.WebPartsTestCases.TestBizportalsHeadliner@791f145a]" started-at="2024-03-28T23:24:01 IST" name="editEntry" finished-at="2024-03-28T23:24:40 IST" depends-on-methods="Bizportals.TestCases.WebPartsTestCases.TestBizportalsHeadliner.createNewEntry" duration-ms="38614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEntry -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Bizportals.TestCases.WebPartsTestCases.TestBizportalsHeadliner@791f145a]" started-at="2024-03-28T23:24:40 IST" name="launchApplication" finished-at="2024-03-28T23:24:44 IST" duration-ms="4620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="editEntryViewForm()[pri:0, instance:Bizportals.TestCases.WebPartsTestCases.TestBizportalsHeadliner@791f145a]" started-at="2024-03-28T23:24:44 IST" name="editEntryViewForm" finished-at="2024-03-28T23:25:21 IST" depends-on-methods="Bizportals.TestCases.WebPartsTestCases.TestBizportalsHeadliner.createNewEntry" duration-ms="37016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEntryViewForm -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Bizportals.TestCases.WebPartsTestCases.TestBizportalsHeadliner@791f145a]" started-at="2024-03-28T23:25:22 IST" name="launchApplication" finished-at="2024-03-28T23:25:26 IST" duration-ms="4242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="deleteEntry()[pri:0, instance:Bizportals.TestCases.WebPartsTestCases.TestBizportalsHeadliner@791f145a]" started-at="2024-03-28T23:25:26 IST" name="deleteEntry" finished-at="2024-03-28T23:26:06 IST" depends-on-methods="Bizportals.TestCases.WebPartsTestCases.TestBizportalsHeadliner.editEntry" duration-ms="40505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEntry -->
+      </class> <!-- Bizportals.TestCases.WebPartsTestCases.TestBizportalsHeadliner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
